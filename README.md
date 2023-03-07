@@ -194,7 +194,7 @@ As mentioned in the sample, the accelerator file will know which API to test. We
 
 ```
 Feature: User registration
-# In this example we're setting the API name to 'jsonplaceholder' - the test will automatically pick the 'User1' data from testdata.yml file and replace the values in request template and hit the endpoint based on the 'host_uri' in 'envconfig.yml' file under 'resources/config' and base_path in request.json template. base_path value will also drive from envconfig.yml
+# In this example we're setting the API name to 'userregistration' - the test will automatically pick the 'User1' data from testdata.yml file and replace the values in request template and hit the endpoint based on the 'host_uri' in 'envconfig.yml' file under 'resources/config' and base_path in request.json template. base_path value will also drive from envconfig.yml
 
 # In the last step we are verifying the response against the complete request. The test will pick the key from 'request_response_mapping.yml' under the resources/schema/<env> and will verify the response value againt the request
 
@@ -207,7 +207,7 @@ Feature: User registration
     Then I verify "CreateUser" in Response --> This step will verify the reponse verfication against the simple request being sent, This step will understand to pick the request reponse mapping from ./config/UserService.yml  and perform the verification for each key mapping present in request_response_mapping.yml file.
     Examples:
       | API             | RequestBody |scode|
-      | jsonplaceholder | User1       |201|
+      | userregistration | User1       |201|
 ```
 
  
