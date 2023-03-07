@@ -3,7 +3,7 @@
     <summary>Table of Contents</summary>
    <ol>
     <li>
-      <a href="#about-the-project">Web Service Testing</a>
+      <a href="#about-the-project">Web Service Testing & Data Reconciliation</a>
       <ul>
         <li><a href="#Framework features">Framework features</a></li>
       </ul>
@@ -29,7 +29,7 @@
             <li><a href="#running-tests">Running tests</a></li>
             <li><a href="#Test Reports">Test Reports</a>
                 <ul>
-                <li><a href="#default-cucumber-report">Default Cucumber report</a>
+                <li><a href="#default-behave-report">Default Behave report</a>
                 <li><a href="#allure-reporting">Allure reporting</a>
                 </ul>
             </li>
@@ -41,7 +41,7 @@
   </ol>
 </details>
 
-## Web Service Testing
+## Web Service Testing & Data Reconciliation
 
 This framework is an API automation testing tool used to perform the functional testing of API's based on Rest & GraphQL Services. 
 
